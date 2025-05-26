@@ -1,0 +1,48 @@
+  body {
+      scroll-behavior: smooth;
+    }
+
+    .navbar-custom {
+      background-color: #001f3f; /* Navy Blue */
+    }
+
+    .hero-section {
+      background: linear-gradient(rgba(0, 0, 50, 0.7), rgba(0, 0, 50, 0.7)),
+        url('https://images.unsplash.com/photo-1581091012184-7c738fa9e530?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hero-content h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .hero-content p {
+      font-size: 1.3rem;
+      margin-bottom: 20px;
+    }
+
+    .btn-hero {
+      font-size: 1.1rem;
+      padding: 12px 30px;
+    }
+     @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+
+  .floating-img {
+    animation: float 4s ease-in-out infinite;
+  }
